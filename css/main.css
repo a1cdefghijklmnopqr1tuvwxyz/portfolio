@@ -287,6 +287,14 @@ nav ul li a:hover::after{
     color: #fff;
     transition: background 0.5s;
 }
+.btn3{
+    width: fit-content;
+    background: #ff004f;
+    padding: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+}
 .btn:hover{
     background: #ff004f;
 }
