@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I am Bedjil Samra, I am a future data scientist">
+    <title>Bedjil Samra</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/02bef9b300.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <i class="fa-solid fa-xmark close-icon" onclick="closemenu()"></i>
+                    </li>
+
+                </ul>
+                <i class="fa-solid fa-bars open-icon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Future data scientist</p>
+                <h1>Hi, I'm <span>Samra</span>, <br>I'm from France</h1>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class=" sub-title">About Me</h1>
+                    <p class="about-me">I'm a computer science student and a future data scientist,
+                        i like spending my time with my laptop, my favorite color isn't red it's just that it's the only
+                        one that suits
+                        website voilà you know everything about me.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Langages</span><br>->French<br>->English<br>->Arabic<br>->Kabyle</li>
+                            <li><span>Frontend stack</span><br>->Html<br>->Css<br>->JavaScript</li>
+                            <li><span>Programming</span><br>->Opengl<br>->Python<br>->Latex <br>->C</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>8Connect</span><br>->Community manager</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020/2023</span><br>Computer science degree Sciences, Technologies, Health in
+                                Paris8 University</li>
+                            <li><span>2023/2024</span><br>Master's degree in data sciences and complex systems in
+                                Strasbourg University</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------services----------->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>here it is my description for now</p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>wIU</h2>
+                    <p>here it is my description for now</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>okok</h2>
+                    <p>here it is my description for now</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------portfolio-------------->
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="projects/p1.png">
+                    <div class="layer">
+                        <h3>Rigging</h3>
+                        <p>the rigging project</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="projects/p1.png">
+                    <div class="layer">
+                        <h3>Rigging</h3>
+                        <p>the rigging project</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="projects/p1.png">
+                    <div class="layer">
+                        <h3>Rigging</h3>
+                        <p>the rigging project</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------contact----------->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+
+                    <p><i class="fa-solid fa-paper-plane"></i>sbedjil@yahoo.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>0674235928</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/jumellesaparis/" target="_blank" rel="noopener noreferer"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/samra-bedjil-91b729294/"><i class="fa-brands fa-linkedin"
+                                target="_blank" rel="noopener noreferer"></i></a>
+                    </div>
+                    <a href="cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" netlify>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <footer class="copyright">
+            <p>Made by Samra Bedjil with <i class="fa-solid fa-heart"></i> & <i class="fa-brands fa-js"></i></i> 2023
+            </p>
+        </footer>
+    </section>
+
+    <script src="js/tabs.js"></script>
+    <script src="js/sideMenu.js"></script>
+</body>
+
+</html>
